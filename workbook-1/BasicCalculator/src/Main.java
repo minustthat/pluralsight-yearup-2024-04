@@ -11,7 +11,9 @@ public class Main {
         float numberB = scanner.nextFloat();
         System.out.printf("What would you like to do with these numbers? Press \n (A) for add \n (S) for subtract \n (M) for Multiply \n (D) for divide \n ");
         String userChoice = scanner.next();
+        String error = "I don't think you understood the directions...";
         float result;
+
         switch (userChoice){
             case "A":
                 result = numberA + numberB;
@@ -24,11 +26,16 @@ public class Main {
 
             case "D":
                 result = numberA / numberB;
+
             default:
-                result = numberA + numberB;
+                result = (float) 0;
 
         }
+        if (!userChoice.equals("A") || !userChoice.equals("S") || !userChoice.equals("M") || !userChoice.equals("D")){
+            System.out.println(error);
+        }
         System.out.println(result);
+        
 
 
 
