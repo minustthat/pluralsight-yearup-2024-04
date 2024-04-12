@@ -13,29 +13,41 @@ public class Main {
         String userChoice = scanner.next();
         String error = "I don't think you understood the directions...";
         float result;
-
         switch (userChoice){
-            case "A":
+            case "A"  :
+                case"a":
                 result = numberA + numberB;
+                System.out.println(result);
+                break;
+
 
             case "S":
+            case "s":
                 result = numberA - numberB;
+                System.out.println(result);
+                break;
 
             case "M":
+            case "m":
                 result = numberA * numberB;
+                System.out.println(result);
+                break;
 
             case "D":
+            case "d":
                 result = numberA / numberB;
+                System.out.println(result);
+                break;
 
             default:
-                result = (float) 0;
+
+                System.out.println(error);
+                break;
 
         }
-        if (!userChoice.equals("A") || !userChoice.equals("S") || !userChoice.equals("M") || !userChoice.equals("D")){
-            System.out.println(error);
-        }
-        System.out.println(result);
-        
+
+
+
 
 
 
