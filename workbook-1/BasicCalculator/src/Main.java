@@ -15,7 +15,7 @@ public class Main {
         float result;
         switch (userChoice){
             case "A"  :
-                case"a":
+                case "a":
                 result = numberA + numberB;
                 System.out.println(result);
                 break;
