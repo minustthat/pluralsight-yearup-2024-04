@@ -4,7 +4,7 @@ public class Employee {
     int id;
     String name;
     double hoursWorked;
-    double payRate;
+     double payRate;
 public  Employee(int id, String name, double hoursWorked, double payRate){
     this.id = id;
     this.name = name;
@@ -14,7 +14,7 @@ public  Employee(int id, String name, double hoursWorked, double payRate){
 public Employee(){
 
 }
-    public int getId() {
+    public  int getId() {
         return id;
     }
 
@@ -22,7 +22,7 @@ public Employee(){
         this.id = id;
     }
 
-    public String getName() {
+    public  String getName() {
         return name;
     }
 
@@ -30,7 +30,7 @@ public Employee(){
         this.name = name;
     }
 
-    public double getHoursWorked() {
+    public  double getHoursWorked() {
         return hoursWorked;
     }
 
@@ -38,7 +38,7 @@ public Employee(){
         this.hoursWorked = hoursWorked;
     }
 
-    public double getPayRate() {
+    public  double getPayRate() {
         return payRate;
     }
 
