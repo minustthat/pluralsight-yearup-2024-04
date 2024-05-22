@@ -1,2 +1,7 @@
-package org.example;public class HoverCraft {
+package org.example;
+
+public class HoverCraft extends Vehicle{
+    public HoverCraft(){
+
+    }
 }

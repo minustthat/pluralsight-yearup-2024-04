@@ -13,7 +13,7 @@ public class Circle extends Shape
     @Override
     public double getArea()
     {
-        return 0.0;
+        return radius * (3.14 * 3.14);
     }
 
     @Override

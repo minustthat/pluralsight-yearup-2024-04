@@ -1,5 +1,6 @@
 package com.pluralsight.models;
 
+import com.pluralsight.BankAccount;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
